@@ -1,0 +1,10 @@
+---
+
+- hosts: localhost
+  tasks:
+    - name: test connection
+      ping:
+
+    - name: install tree command using brew 
+      homebrew: name=tree state=present
+
