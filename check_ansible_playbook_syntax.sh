@@ -4,6 +4,7 @@ set -o nounset
 # set -o xtrace
 set -o pipefail
 
+export PATH=${PATH}:/usr/local/bin/
 __DIR__="$(cd "$(dirname "${0}")"; echo $(pwd))"
 __BASE__="$(basename "${0}")"
 __FILE__="${__DIR__}/${__BASE__}"
