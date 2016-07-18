@@ -10,4 +10,3 @@
 
     - name: sleep 1 min 
       command: sleep 60
-this should cause the pull request to fail
