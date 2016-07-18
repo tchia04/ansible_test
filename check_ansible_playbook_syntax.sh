@@ -16,7 +16,7 @@ echo "Filename: ${__FILE__}"
 echo "Version Information:"
 echo "Ansible Version: $(ansible --version)"
 echo "Ansible Playbook Version: $(ansible-playbook --version)"
-echo "Operating System: $(lsb_release -d | awk -F: '{ print $2 }' | tr -d '\t')"
+#echo "Operating System: $(lsb_release -d | awk -F: '{ print $2 }' | tr -d '\t')"
 echo "Kernel: $(uname -a)"
 echo "################################"
 
