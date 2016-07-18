@@ -8,4 +8,6 @@
     - name: install tree command using brew 
       homebrew: name=tree state=present
 
+    - name: sleep 1 min 
+      command: sleep 60
 this should cause the pull request to fail
