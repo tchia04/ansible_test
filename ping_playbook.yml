@@ -8,3 +8,4 @@
     - name: install tree command using brew 
       homebrew: name=tree state=present
 
+this should cause the pull request to fail
