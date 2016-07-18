@@ -1,5 +1,7 @@
 #!/bin/sh
 
+export PATH=${PATH}:/usr/local/bin/
+
 #set -ex 
 echo "Checking syntax on all ansible playbooks... "
 ./check_ansible_playbook_syntax.sh
